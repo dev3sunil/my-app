@@ -1,4 +1,42 @@
-.App {
+@media screen and (min-width:767px) {
+  .container{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 1.5rem;
+  }
+  
+}
+.img{
+  background-color: burlywood;
+  border: 1px solid black;
+}
+.card{
+  background-color: #d1d1d1;
+  text-align: center;
+}
+.form-heading{
+  text-align: center;
+}
+.form-heading input{
+  height: 2rem;
+  border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +73,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
